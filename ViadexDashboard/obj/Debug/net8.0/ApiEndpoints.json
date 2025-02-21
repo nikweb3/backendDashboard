@@ -1,0 +1,397 @@
+[
+  {
+    "ContainingType": "ViadexDashboard.Controllers.ComplianceController",
+    "Method": "GetAll",
+    "RelativePath": "api/Compliance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.ComplianceController",
+    "Method": "Create",
+    "RelativePath": "api/Compliance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "compliance",
+        "Type": "ViadexDashboard.Models.Compliance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.ComplianceController",
+    "Method": "GetById",
+    "RelativePath": "api/Compliance/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.ComplianceController",
+    "Method": "Update",
+    "RelativePath": "api/Compliance/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "compliance",
+        "Type": "ViadexDashboard.Models.Compliance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.ComplianceController",
+    "Method": "Delete",
+    "RelativePath": "api/Compliance/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DeviceController",
+    "Method": "GetAll",
+    "RelativePath": "api/Device",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DeviceController",
+    "Method": "Create",
+    "RelativePath": "api/Device",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "device",
+        "Type": "ViadexDashboard.Models.Device",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DeviceController",
+    "Method": "GetById",
+    "RelativePath": "api/Device/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DeviceController",
+    "Method": "Update",
+    "RelativePath": "api/Device/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "device",
+        "Type": "ViadexDashboard.Models.Device",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DeviceController",
+    "Method": "Delete",
+    "RelativePath": "api/Device/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DexScoreController",
+    "Method": "GetAll",
+    "RelativePath": "api/DexScore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DexScoreController",
+    "Method": "Create",
+    "RelativePath": "api/DexScore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dexScore",
+        "Type": "ViadexDashboard.Models.DEXScore",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DexScoreController",
+    "Method": "GetById",
+    "RelativePath": "api/DexScore/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DexScoreController",
+    "Method": "Update",
+    "RelativePath": "api/DexScore/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dexScore",
+        "Type": "ViadexDashboard.Models.DEXScore",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.DexScoreController",
+    "Method": "Delete",
+    "RelativePath": "api/DexScore/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.SustainabilityController",
+    "Method": "GetAll",
+    "RelativePath": "api/Sustainability",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.SustainabilityController",
+    "Method": "Create",
+    "RelativePath": "api/Sustainability",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sustainability",
+        "Type": "ViadexDashboard.Models.Sustainability",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.SustainabilityController",
+    "Method": "GetById",
+    "RelativePath": "api/Sustainability/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.SustainabilityController",
+    "Method": "Update",
+    "RelativePath": "api/Sustainability/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sustainability",
+        "Type": "ViadexDashboard.Models.Sustainability",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.SustainabilityController",
+    "Method": "Delete",
+    "RelativePath": "api/Sustainability/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.TelemetryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Telemetry",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.TelemetryController",
+    "Method": "Create",
+    "RelativePath": "api/Telemetry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "telemetry",
+        "Type": "ViadexDashboard.Models.Telemetry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.TelemetryController",
+    "Method": "GetById",
+    "RelativePath": "api/Telemetry/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.TelemetryController",
+    "Method": "Update",
+    "RelativePath": "api/Telemetry/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "telemetry",
+        "Type": "ViadexDashboard.Models.Telemetry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViadexDashboard.Controllers.TelemetryController",
+    "Method": "Delete",
+    "RelativePath": "api/Telemetry/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
