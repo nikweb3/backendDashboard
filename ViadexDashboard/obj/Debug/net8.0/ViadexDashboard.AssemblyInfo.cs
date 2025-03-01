@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViadexDashboard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+661a3f1acce1c927670ebc979f87e725ea0cd00f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ViadexDashboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViadexDashboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

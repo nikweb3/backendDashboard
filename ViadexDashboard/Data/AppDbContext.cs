@@ -11,6 +11,10 @@ namespace ViadexDashboard.Data
         public DbSet<Compliance> ComplianceData { get; set; }
         public DbSet<Sustainability> SustainabilityData { get; set; }
         public DbSet<DEXScore> DEXScores { get; set; }
+        public DbSet<Component> Components { get; set; }
+        public DbSet<ComponentHtml> ComponentHtmls { get; set; }
+        public DbSet<ComponentCss> ComponentCss { get; set; }
+        public DbSet<ComponentJs> ComponentJs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -153,6 +157,21 @@ namespace ViadexDashboard.Data
                 new DEXScore { Id = 24, DeviceId = 24, PerformanceScore = 77.5, UserFeedbackScore = 3.8 },
                 new DEXScore { Id = 25, DeviceId = 25, PerformanceScore = 89.7, UserFeedbackScore = 4.4 }
             );
+
+            modelBuilder.Entity<Component>()
+           .HasMany(c => c.HtmlContent)
+           .WithOne()
+           .HasForeignKey(h => h.ComponentId);
+
+            modelBuilder.Entity<Component>()
+                .HasMany(c => c.CssContent)
+                .WithOne()
+                .HasForeignKey(c => c.ComponentId);
+
+            modelBuilder.Entity<Component>()
+                .HasMany(c => c.JsContent)
+                .WithOne()
+                .HasForeignKey(j => j.ComponentId);
         }
     }
 }

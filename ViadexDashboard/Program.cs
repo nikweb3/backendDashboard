@@ -20,6 +20,7 @@ builder.Services.AddScoped<ITelemetryService, TelemetryService>();
 builder.Services.AddScoped<IComplianceService, ComplianceService>();
 builder.Services.AddScoped<ISustainabilityService, SustainabilityService>();
 builder.Services.AddScoped<IDEXScoreService, DexScoreService>();
+builder.Services.AddScoped<IComponentService, ComponentService>();
 
 builder.Services.AddCors(options =>
 {

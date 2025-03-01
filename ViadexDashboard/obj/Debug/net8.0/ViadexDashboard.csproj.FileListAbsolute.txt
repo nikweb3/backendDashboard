@@ -170,3 +170,4 @@ C:\Users\nikes\source\repos\ViadexDashboard\ViadexDashboard\obj\Debug\net8.0\ref
 C:\Users\nikes\source\repos\ViadexDashboard\ViadexDashboard\obj\Debug\net8.0\ViadexDashboard.pdb
 C:\Users\nikes\source\repos\ViadexDashboard\ViadexDashboard\obj\Debug\net8.0\ViadexDashboard.genruntimeconfig.cache
 C:\Users\nikes\source\repos\ViadexDashboard\ViadexDashboard\obj\Debug\net8.0\ref\ViadexDashboard.dll
+C:\Users\nikes\source\repos\ViadexDashboard\ViadexDashboard\obj\Debug\net8.0\ViadexDashboard.sourcelink.json
